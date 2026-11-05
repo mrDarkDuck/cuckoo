@@ -5,7 +5,7 @@ package.domain = org.test
 source.dir = .
 source.include_exts = py
 version = 0.1
-requirements = python3,kivy,telethon,cryptography==38.0.4,openssl,asyncio
+requirements = python3,kivy,telethon,cryptography==38.0.4,openssl
 orientation = portrait
 android.permissions = INTERNET
 android.api = 33
