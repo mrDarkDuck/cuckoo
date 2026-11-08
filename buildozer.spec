@@ -5,7 +5,7 @@ package.domain = org.test
 source.dir = .
 source.include_exts = py
 version = 0.1
-requirements = python3,kivy,telethon,pycryptodomex,openssl
+requirements = python3,kivy,telethon,cryptography==42.0.8,openssl
 orientation = portrait
 android.ant_path = /usr/share/ant
 android.permissions = INTERNET
