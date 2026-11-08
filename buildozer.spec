@@ -7,6 +7,7 @@ source.include_exts = py
 version = 0.1
 requirements = python3,kivy,telethon,cryptography==38.0.4,openssl
 orientation = portrait
+android.ant_path = /usr/share/ant
 android.permissions = INTERNET
 android.api = 33
 android.minapi = 21
