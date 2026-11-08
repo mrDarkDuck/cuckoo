@@ -32,6 +32,8 @@ jobs:
 
       - name: Build with Buildozer
         run: |
+          # Очищаем кэш перед сборкой, чтобы применить новые изменения
+          buildozer android clean || true
           yes | buildozer -v android debug
 
       - name: Upload APK artifact
